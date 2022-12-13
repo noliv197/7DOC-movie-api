@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Filmes Lib</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./film.png">
+</head>
+<body>
+    <header class="">
+        <h1>Filmes Populares</h1>
+        <div class="input-container">
+            <input type="search" placeholder="Digite algum filme para pesquisar">
+            <i class="fa fa-search"></i>
+        </div>
+
+            <label for="filtro">
+                <input id="filtro" type="checkbox">
+                Mostrar meus filmes favoritos apenas
+            </label>
+
+    </header>
+    <main>
+        <section class="secao-cards">
+        </section>
+    </main>
+    <script src="src/filme-controlador.js" type="module"></script>
+    <script src="src/favoritar.js" type="module"></script>   
+</body>
+</html>

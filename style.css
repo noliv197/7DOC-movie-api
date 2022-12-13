@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;600;700&display=swap');
+html{
+    margin: 0;
+    font-size: 16px;
+}
+
+body{
+    background-color: #17162E;
+    color: #fff;
+    font-family: 'Kumbh Sans', sans-serif;
+    text-align: center;
+}
+
+/* Header */
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-container{
+    position: relative;
+}
+input[type='search']{
+    box-sizing: border-box;
+    border-radius: 8px;
+    min-width: 634px;
+    height: 60px;
+    padding: .5rem;
+    background-color: #4d4c6c;
+    border: none;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+.fa-search{
+    color: #8A8A8A;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    bottom: 0;
+    transform: translate();
+}
+input[type='search']::placeholder{
+    color: #8A8A8A;
+}
+input[type='checkbox']{
+    border: 2px solid #706EA8;
+    border-radius: 4px;
+}
+input[type='checkbox']:checked{
+    background-color: #706EA8;
+    color: #fff;
+}
+
+/*Seção Cards*/
+.secao-cards{
+    padding: 1rem;
+    margin: 2rem 0;
+}
+.card{
+    background-color: #1D1C3B;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 1rem;
+    text-align: left;
+    margin: 1rem 0;
+    min-height: 180px;
+    box-shadow: 32.8387px 24.5482px 79px rgba(0, 0, 0, 0.15), 23.8851px 17.855px 53.2479px rgba(0, 0, 0, 0.121406), 16.6246px 12.4276px 34.4391px rgba(0, 0, 0, 0.10125), 10.9035px 8.15079px 21.3701px rgba(0, 0, 0, 0.0867188), 6.56775px 4.90965px 12.8375px rgba(0, 0, 0, 0.075), 3.46346px 2.58907px 7.6377px rgba(0, 0, 0, 0.0632813), 1.4367px 1.07399px 4.56719px rgba(0, 0, 0, 0.04875), 0.333519px 0.249318px 2.42246px rgba(0, 0, 0, 0.0285938);
+
+}
+.card-container{
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+.card-info{
+    width: 250px;
+    box-sizing: border-box;
+    flex-grow: 1;
+}
+.card-info > span{
+    margin-right: 2.5rem;
+}
+.card-descricao{
+    max-width: 700px;
+}
+.card img{
+    border-radius: 50%;
+    width: 154px;
+    height: 154px;
+    margin-right: 1rem;
+    object-fit: cover;
+}
+.card h2{
+    font-weight: 500;
+    font-size: 1.13em;
+    box-sizing: border-box;
+}
+.card span{
+    font-weight: 400;
+    font-size: 1.13em;
+}
+.card p{
+    color: #ACACAC;
+    font-weight: 500;
+    font-size: 1.13em;
+/*     -width: 500px; */
+}
+i{
+    margin-right: .5rem;
+}
+.fa-star{
+    color: #D7A82F;
+}
+.fa-heart,.fa-heart-o{
+    color: #BA0707;
+}
