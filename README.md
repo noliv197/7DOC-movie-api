@@ -4,14 +4,14 @@
 | -------------  | --- |
 | :sparkles: Name        | **Movie API**
 | :label: Build with | html, css, javascript, The Movie Database
-| :rocket: URL         | http://movie-api-pied.vercel.app
+| :rocket: URL         | http://movie-api-pi.vercel.app
 | :fire: Challenge     | http://7daysofcode.io/matricula/javascript-e-dom-api
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
+![](movie_api.gif#vitrinedev)
 
 ## About The Project
-<img src="http://img.shields.io/static/v1?label=Development&message=On%20Going&color=blue&style=for-the-badge"/>
+<img src="http://img.shields.io/static/v1?label=Development&message=Finished&color=GREEN&style=for-the-badge"/>
 <img src="http://img.shields.io/static/v1?label=CODE%20REVIEW&message=Not%20Started&color=red&style=for-the-badge"/>
 
 * 7 Days Of Code Challenge
