@@ -3,7 +3,7 @@
 export class Server{
     constructor(){
         this.url = 'https://api.themoviedb.org/3'
-        this.key = API_KEY
+        this.key = process.env.API_KEY
     }
     async getFilmes(){
         try{
