@@ -1,4 +1,4 @@
-import API_KEY from "../env/key.js"
+//import API_KEY from "../env/key.js"
 
 export class Server{
     constructor(){
